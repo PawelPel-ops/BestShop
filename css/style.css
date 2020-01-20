@@ -379,6 +379,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .header-pricing {
@@ -394,10 +395,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 80px;
     border: 1px solid var(--red-color);
     border-radius: 18px;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
     margin-right: 60px;
 }
 
@@ -472,10 +473,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 80px;
     border: 1px solid var(--limon-color);
     border-radius: 18px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     margin-left: 58px;
 }
 
@@ -524,3 +525,128 @@
 }
 
 /* przyciski od cen */
+.btn-pricing-basic {
+    font-family: var(--font-op);
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 16px 57px;
+    border-radius: 23px;
+    background-color: var(--red-color);
+    position: absolute;
+    bottom: -15px;
+    left: 165px;
+}
+
+.btn-pricing-professional {
+    font-family: var(--font-op);
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 16px 57px;
+    border-radius: 23px;
+    background-color: var(--blue-color);
+    position: absolute;
+    bottom: -20px;
+    left: 600px;
+}
+
+.btn-pricing-premium {
+    font-family: var(--font-op);
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 16px 57px;
+    border-radius: 23px;
+    background-color: var(--limon-color);
+    position: absolute;
+    bottom: -10px;
+    right: 165px;
+}
+
+/* Formularz */
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    position: relative;
+}
+
+.header-form {
+    font-family: var(--font-rel);
+    font-size: 47px;
+    font-weight: 600;
+    margin-left: 230px;
+    padding-right: 230px;
+}
+
+.text-form {
+    font-family: var(--font-op);
+    font-size: 16px;
+    margin-left: 230px;
+    margin-top: 14px;
+}
+
+.contact-form {
+    font-family: var(--font-op);
+    font-size: 16px;
+    color: var(--dark-grey-color);
+    margin-left: 230px;
+    margin-top: 42px;
+    display: flex;
+}
+
+.icon {
+    padding-right: 5px;
+}
+
+.right-form {
+    margin-right: 230px;
+}
+
+.name-form {
+    font-family: var(--font-op);
+    font-size: 11px;
+    font-weight: bold;
+    color: var(--blue-color);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.box-name {
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid var(--grey-color);
+    padding-right: 230px;
+    margin: 15px auto;
+}
+
+.agree-text-form {
+    font-family: var(--font-op);
+    font-size: 12px;
+    color: var(--dark-grey-color);
+}
+
+.checkbox {
+    display: flex;
+}
+
+.btn-form {
+    font-family: var(--font-op);
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    padding: 20px 100px;
+    border-radius: 35px;
+    box-shadow: 5px 10px 14px var(--blue-color);
+    position: absolute;
+    bottom: -70px;
+    right: 230px;
+    border: 0;
+}
