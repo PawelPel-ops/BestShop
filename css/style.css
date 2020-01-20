@@ -1,0 +1,526 @@
+:root {
+    --blue-color: #08A6E4;
+    --red-color: #FB3B64;
+    --limon-color: #55DFB4;
+    --black-color: #000000;
+    --dark-grey-color: #707070;
+    --grey-color: #95989A;
+    --light-grey-color: #A5A5A5;
+    --white-color: #FFFFFF;
+    --font-rel: 'Raleway', sans-serif;
+    --font-op: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1352px;
+}
+
+/* HEADER */
+/* NAV */
+.header .container {
+    height: 70px;
+}
+
+.header {
+    box-shadow: 0 3px 6px var(--dark-grey-color);
+}
+
+.nav-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-up ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header-logo {
+    text-decoration: none;
+    color: var(--blue-color);
+    font-family: var(--font-rel);
+    font-size: 32px;
+}
+
+.menu-up {
+    text-decoration: none;
+    color: var(--grey-color);
+    font-family: var(--font-op);
+    font-size: 11px;
+    margin-left: 90px;
+    font-weight: bold;
+    border: 4px solid rgba(8, 166, 228, 0);
+    padding: 24px 5px;
+}
+
+.menu-up:hover {
+    color: var(--black-color);
+    border-bottom: 4px solid var(--blue-color);
+}
+
+/* tlo i tekst na tle */
+
+.bc {
+    height: calc(100vh - 70px);
+    background-image: url("../image/Background.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.bc-head {
+    color: var(--black-color);
+    font-family: var(--font-rel);
+    font-size: 49px;
+    font-weight: 600;
+    margin-top: 138px;
+}
+
+.bc-text {
+    color: var(--black-color);
+    font-family: var(--font-op);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.btn-bc {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 16px;
+    font-family: var(--font-op);
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 22px 157px;
+    background-color: var(--blue-color);
+    border-radius: 40px;
+    box-shadow: 5px 10px 14px var(--limon-color);
+}
+
+/* nastepna sekcja z kolkami */
+
+.se-up-he {
+    color: var(--black-color);
+    font-family: var(--font-rel);
+    font-size: 36px;
+    margin: 105px 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+/* kolko*/
+.red {
+    height: 63px;
+    width: 63px;
+    background-color: var(--red-color);
+    border-radius: 60px;
+}
+
+.blue {
+    height: 63px;
+    width: 63px;
+    background-color: var(--blue-color);
+    border-radius: 60px;
+}
+
+.limon {
+    height: 63px;
+    width: 63px;
+    background-color: var(--limon-color);
+    border-radius: 60px;
+}
+/*tekst*/
+.round-text {
+    color: var(--black-color);
+    font-family: var(--font-rel);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 18px;
+    letter-spacing: 6px;
+}
+
+.small-round-text {
+    color: var(--dark-grey-color);
+    font-family: var(--font-rel);
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 22px;
+    margin-bottom: 122px;
+    width: 130px;
+    text-align: center;
+}
+
+.red::after {
+    content: "";
+    background-image: url("../image/Person.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 52px;
+    position: absolute;
+    top: 5px;
+    left: 60px;
+}
+
+.blue::after {
+    content: "";
+    background-image: url("../image/Eye.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 37px;
+    width: 66px;
+    position: absolute;
+    top: 12px;
+    left: 59px;
+}
+
+.limon::after {
+    content: "";
+    background-image: url("../image/Catalog.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 52px;
+    position: absolute;
+    top: 5px;
+    left: 70px;
+}
+/* pozycjonowanie kolek */
+.round {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.round-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+/* Druga sekcja */
+
+.middle {
+    padding-top: 105px;
+    padding-bottom: 105px;
+    background-color: #f7f7f7;
+}
+
+.first-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    margin: auto 115px 37px 115px;
+    border: 1px solid var(--light-grey-color);
+    border-radius: 5px;
+    background-color: var(--white-color);
+}
+
+.middle-header {
+    color: var(--black-color);
+    font-family: var(--font-rel);
+    font-size: 36px;
+    margin-top: 97px;
+    margin-left: 35px;
+    font-weight: 600;
+}
+
+.middle-text {
+    color: var(--black-color);
+    font-family: var(--font-op);
+    font-size: 16px;
+    margin: 30px 170px 50px 35px;
+}
+
+.red-border {
+    border: 2px solid var(--red-color);
+    width: 328px;
+    margin-left: 35px;
+}
+
+.first-div img {
+    margin: 113px 118px 38px auto;
+}
+
+/* obracanie kwadrat */
+.first-div:last-child::after {
+    width: 255px;
+    height: 255px;
+    content: "";
+    background-color: var(--red-color);
+    border-radius: 40px;
+    transform: rotate(45deg);
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: -1;
+}
+
+/* drugi div */
+.second-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    margin: auto 115px 37px 115px;
+    border: 1px solid var(--light-grey-color);
+    border-radius: 5px;
+    background-color: var(--white-color);
+}
+
+.blue-border {
+    border: 2px solid var(--blue-color);
+    width: 328px;
+    margin-left: 192px;
+}
+
+.iphone-image {
+    margin: 30px auto 13px 70px;
+}
+
+.middle-header-iphone {
+    color: var(--black-color);
+    font-family: var(--font-rel);
+    font-size: 36px;
+    margin-top: 75px;
+    margin-left: 192px;
+    margin-right: 180px;
+    font-weight: 600;
+}
+
+.middle-text-iphone {
+    color: var(--black-color);
+    font-family: var(--font-op);
+    font-size: 16px;
+    margin: 30px auto 50px 192px;
+}
+
+.second-div:first-child::after {
+    width: 320px;
+    height: 320px;
+    content: "";
+    background-color: var(--blue-color);
+    border-radius: 60px;
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: -1;
+}
+/* trzeci div */
+
+.summary {
+    display: flex;
+}
+
+.limon-border {
+    border: 2px solid var(--limon-color);
+    width: 328px;
+    margin-left: 35px;
+    margin-bottom: 71px;
+}
+
+.third-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    margin: auto 61px auto 115px;
+    border: 1px solid var(--light-grey-color);
+    border-radius: 5px;
+    background-color: var(--white-color);
+}
+
+.fourth-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 370px;
+    width: 440px;
+    margin-right: 115px;
+    border: 1px solid var(--light-grey-color);
+    border-radius: 5px;
+    background-color: var(--limon-color);
+}
+
+.middle-header-trumpet {
+    color: var(--black-color);
+    font-family: var(--font-rel);
+    font-size: 36px;
+    font-weight: 600;
+    margin: 75px 255px auto 35px;
+}
+
+.middle-text-trumpet {
+    color: var(--black-color);
+    font-family: var(--font-op);
+    font-size: 16px;
+    margin: 30px 35px 44px 35px;
+}
+
+/* sekcja pricing */
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-pricing {
+    text-align: center;
+    margin-top: 106px;
+    font-family: var(--font-rel);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.pricing-basic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    border: 1px solid var(--red-color);
+    border-radius: 18px;
+    padding-bottom: 60px;
+    margin-right: 60px;
+}
+
+.small-header-pricing {
+    font-family: var(--font-rel);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 38px;
+}
+
+.basic-price {
+    font-family: var(--font-op);
+    font-size: 46px;
+    font-weight: 400;
+    color: var(--red-color);
+    margin: 20px 157px 70px 157px;
+}
+
+.apply {
+    font-family: var(--font-op);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.unapply {
+    font-family: var(--font-op);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.pricing-professional {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    border: 1px solid var(--blue-color);
+    box-shadow: 5px 10px 27px var(--blue-color);
+    border-radius: 18px;
+    padding-bottom: 60px;
+}
+
+.professional-price {
+    font-family: var(--font-op);
+    font-size: 46px;
+    font-weight: 400;
+    color: var(--blue-color);
+    margin: 20px 156px 20px 156px;
+}
+
+.limited {
+    font-family: var(--font-rel);
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.apply-big {
+    font-family: var(--font-op);
+    font-size: 14px;
+    margin-bottom: 26px;
+}
+
+.unapply-big {
+    font-family: var(--font-op);
+    font-size: 14px;
+    margin-bottom: 26px;
+}
+
+.pricing-premium {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    border: 1px solid var(--limon-color);
+    border-radius: 18px;
+    padding-bottom: 60px;
+    margin-left: 58px;
+}
+
+.premium-price {
+    font-family: var(--font-op);
+    font-size: 46px;
+    font-weight: 400;
+    color: var(--limon-color);
+    margin: 20px 144px 20px 144px;
+}
+
+.apply::before {
+    content: url("../image/Ckechmark-1.svg");
+    height: 100%;
+    margin-right: 5px;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+.unapply::before {
+    content: url("../image/Close.svg");
+    height: 100%;
+    margin-right: 5px;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+.apply-big::before {
+    content: url("../image/Ckechmark-1.svg");
+    height: 100%;
+    margin-right: 5px;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+.unapply-big::before {
+    content: url("../image/Close.svg");
+    height: 100%;
+    margin-right: 5px;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+/* przyciski od cen */
