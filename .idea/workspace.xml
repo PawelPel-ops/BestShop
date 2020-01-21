@@ -59,7 +59,9 @@
       <updated>1579267140800</updated>
       <workItem from="1579267142188" duration="2844000" />
       <workItem from="1579270254874" duration="23384000" />
-      <workItem from="1579544107465" duration="5465000" />
+      <workItem from="1579544107465" duration="5670000" />
+      <workItem from="1579584063554" duration="507000" />
+      <workItem from="1579625526705" duration="3617000" />
     </task>
     <task id="LOCAL-00001" summary="BestShop">
       <created>1579544213234</created>
@@ -68,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579544213234</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="BestShop">
+      <created>1579549798843</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579549798843</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,18 +88,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="BestShop" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="556" y="61" width="864" height="982" key="CommitChangelistDialog2" timestamp="1579544213089">
+    <state x="556" y="61" width="864" height="982" key="CommitChangelistDialog2" timestamp="1579549798474">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="556" y="61" width="864" height="982" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1579544213089" />
+    <state x="556" y="61" width="864" height="982" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1579549798474" />
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579509487513">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1579509487513" />
-    <state x="588" y="284" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1579549759770">
+    <state x="588" y="284" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1579549802691">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="284" width="800" height="536" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1579549759770" />
+    <state x="588" y="284" width="800" height="536" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1579549802691" />
     <state x="665" y="328" width="647" height="449" key="git4idea.merge.GitPullDialog" timestamp="1579544183237">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
