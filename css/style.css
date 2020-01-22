@@ -225,17 +225,19 @@
     padding-top: 105px;
     padding-bottom: 105px;
     background-color: #f7f7f7;
+
 }
 
 .first-div {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 100%;
+    height: 370px;
     margin: auto 115px 37px 115px;
     border: 1px solid var(--light-grey-color);
     border-radius: 5px;
     background-color: var(--white-color);
+    position: relative;
 }
 
 .middle-header {
@@ -262,20 +264,22 @@
 
 .first-div img {
     margin: 113px 118px 38px auto;
+    position: relative;
+    z-index: 3;
 }
 
 /* obracanie kwadrat */
-.first-div:last-child::after {
-    width: 255px;
-    height: 255px;
+.first-div::after {
+    width: 245px;
+    height: 245px;
     content: "";
     background-color: var(--red-color);
     border-radius: 40px;
     transform: rotate(45deg);
-    top: 0;
-    left: 0;
-    position: relative;
-    z-index: -1;
+    top: 50px;
+    right: 50px;
+    position: absolute;
+    /*z-index: -1;*/
 }
 
 /* drugi div */
@@ -288,6 +292,7 @@
     border: 1px solid var(--light-grey-color);
     border-radius: 5px;
     background-color: var(--white-color);
+    position: relative;
 }
 
 .blue-border {
@@ -298,6 +303,8 @@
 
 .iphone-image {
     margin: 30px auto 13px 70px;
+    position: relative;
+    z-index: 3;
 }
 
 .middle-header-iphone {
@@ -317,22 +324,24 @@
     margin: 30px auto 50px 192px;
 }
 
-.second-div:first-child::after {
-    width: 320px;
-    height: 320px;
+.second-div::after {
+    width: 350px;
+    height: 350px;
     content: "";
     background-color: var(--blue-color);
-    border-radius: 60px;
-    top: 0;
-    left: 0;
-    position: relative;
-    z-index: -1;
+    border-radius: 200px;
+    top: 10px;
+    left: 80px;
+    position: absolute;
+    /*z-index: -10;*/
 }
 /* trzeci div */
 
 .summary {
     display: flex;
+
     height: 370px;
+    width: 100%;
 }
 
 .limon-border {
@@ -346,7 +355,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    
+    width: 60%;
     height: 100%;
     margin: auto 61px auto 115px;
     border: 1px solid var(--light-grey-color);
@@ -359,7 +368,7 @@
     justify-content: center;
     align-items: center;
     height: 370px;
-
+    width: 30%;
 
     margin-right: 115px;
     border: 1px solid var(--light-grey-color);
